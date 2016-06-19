@@ -1,0 +1,89 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+#jgood-media-grid .media-toolbar{
+	/*position: relative;*/
+	/*top: 50px;*/
+}
+.library-tools{
+	top: 50px;
+}
+.attachment-folder,
+.attachment .attachment-folder .thumbnail::after{
+	box-shadow: none;
+	background: transparent;
+}
+.folder-closed .thumbnail{
+	background: url("../images/folder.png") top left no-repeat transparent;
+}
+#jgood-media-grid .uploader-inline{
+	margin-top: 150px;
+}
+.library-tools .search-form.media-toolbar-primary, .insert-tools .search-form.media-toolbar-primary{
+	float: none;
+	max-width: 100%;
+}
+.attachments-browser .media-toolbar.insert-tools {
+	background: transparent;
+	border: none;
+	max-width: calc(100% - 300px);
+	top: 20px;
+	height: 55px;
+}
+.media-modal .attachments-browser .attachments{
+	top: 95px;
+}
+#jgood-media-grid ul.attachments{
+	margin-top: 130px;
+}
+.media-frame .history-item{
+	float: left;
+}
+.media-frame .library-tool{
+	float:right;
+}
+.media-frame .folder-option{
+	border: none;
+	width: 13.5px;
+	height: 12px;
+	z-index: 1;
+	border-radius: 2px;
+	moz-border-radius: 2px;
+	display: none;
+	position: absolute;
+	padding: 0px;
+}
+.media-frame .folder-option:active{
+	border: 1px solid #F1F1F1;
+}
+
+.media-frame .folder-option.folder-option-delete{
+	background: red;
+	right: 10px;
+}
+.media-frame .folder-option.folder-option-delete:before{
+	content: "\f158";
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	font-size: 12px;
+	color: rgba(255,255,255,0.7)
+}
+.media-frame .folder-option:active.folder-option-delete:before{
+	left: 0px;
+	top: -1px;
+}
+
+.attachments .attachment:focus .folder-option{
+	display: inline-block;
+}
+
+.filename-label{
+	cursor: text;
+}
+.filename-input{
+	width: calc(100% - 2px);
+	display: none;
+}
