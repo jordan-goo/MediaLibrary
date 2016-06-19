@@ -1,6 +1,6 @@
 <?php
 
-class JGood_Plugin_Updater {
+class JGood_Media_Plugin_Updater {
 
     private $slug;
 
