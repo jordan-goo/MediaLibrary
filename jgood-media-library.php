@@ -119,7 +119,7 @@ function run_jgood_media_library() {
 		// github user name
 		// github repo name
 		// optional private github access token
-	    new JGood_Plugin_Updater( __FILE__, 'rcrab', 'jgood_media_library' );
+	    new JGood_Plugin_Updater( __FILE__, 'jgoodesign', 'MediaLibrary' );
 	}
 
 }
